@@ -10,32 +10,24 @@ const AboutPage = () => {
                 </div>
             </div>
             <div className="center">
-                This website was made by Patrick Schmitt to showcase his art and programming skills.
+                Welcome to The Nefarious Machine.
                 <br/>
                 <br/>
-                <div className="subheading">Education</div>
-                Bachelor of Arts in Computer Science from SUNY Oswego 
-                <br/>
-                graduated December 2023, 3.57 GPA
-                <br/>
-                <br/>
-                <div className="subheading">Work Experience</div>
-                <div className="smallheading">Database Assistant</div>
-                SUNY Oswego Facilities Services
-                <br/>
-                June 2023 - August 2023
+                Here you may behold the insane, beautiful, and terrible machinations of its creator, the Mechanist. The Mechanist is formally educated in
+                the field of computer science and has decided to use this knowledge for EVIL!!! A wide breadth of topics pique the Mechanist's interests, for
+                the Mechanist does not tie themselves to one interest, skill, or passion. The Mechanist has dabbled in physical and digital art, music, writing,
+                programming, and mad science.
                 <br/>
                 <br/>
-                <div className="smallheading">AI Trainer</div>
-                DataAnnotation
-                <br/>
-                March 2024 - Present
+                One day the Nefarious Machine will rule the world and the Mechanist's fingerprint will forever mark history. You cannot stop it, only prepare yourself
+                for its inevitable reign of terror.
                 <br/>
                 <br/>
                 <div className="subheading">Links</div>
+                <br/>
                 <Link to="https://github.com/Schmitt-Very-Cool">GitHub</Link>
                 <br/>
-                <Link to="https://the-infamous-machine.itch.io/">itch.io</Link>
+                <Link to="https://the-nefarious-machine.itch.io/">itch.io</Link>
             </div>
         </div>
     );

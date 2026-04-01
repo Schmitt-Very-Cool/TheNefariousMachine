@@ -1,6 +1,4 @@
-import React from "react";
-import HeaderBar from '../components/HeaderBar';
-import PortfolioItem from '../components/PortfolioItem';
+import BigPictureLink from '../components/BigPictureLink'
 
 const Portfolio = () => {
     return (
@@ -10,30 +8,26 @@ const Portfolio = () => {
                     Portfolio
                 </div>
             </div>
-            <PortfolioItem 
-                imageurl="/assets/fire.gif" 
-                title="This Website!" 
-                description="My very own website built in-house in React. Hope you enjoy!" 
-                link="/this" 
-            />
-            <PortfolioItem 
-                imageurl="/assets/supersand/SuperSandThumbnail.jpg" 
-                title="SuperSand" 
-                description="A falling sand game I made for fun in C++ using SFML for the GUI" 
-                link="/supersand" 
-            />
-            <PortfolioItem 
-                imageurl="/assets/minesweeper/ms_3.jpg" 
-                title="Parallel Minesweeper" 
-                description="A program that solves a minesweeper game by offloading the work onto other computers! A showcase of networking and parallel programming made for my Parallel Programming university class." 
-                link="/paramines" 
-            />
-            <PortfolioItem 
-                imageurl="/assets/aquarium/fish_1.jpg" 
-                title="Aquarium Simulator" 
-                description="A Discrete Event Simulation with a custom-built framework, wrapped in an aquarium theme. Made for my Simulations and Digital Worlds university class." 
-                link="/aquarium" 
-            />
+            <div className="portfoliolinks">
+                <BigPictureLink
+                    imageurl="/assets/terminal.gif" 
+                    title="Programs" 
+                    description="Tools and more technical projects that show off my software development skills" 
+                    link="/programs"
+                />
+                <BigPictureLink
+                    imageurl="/assets/joystick.gif" 
+                    title="Games" 
+                    description="Small browser games I make for fun" 
+                    link="/games"
+                />
+                <BigPictureLink
+                    imageurl="/assets/blueprint.gif" 
+                    title="Art" 
+                    description="My drawings and animations" 
+                    link="/art"
+                />
+            </div>
         </div>
     );
 }
